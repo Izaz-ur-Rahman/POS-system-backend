@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+}
+
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT SIDE */
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #0ea5e9, #6366f1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-left h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.login-left p {
+  opacity: 0.9;
+}
+
+/* glowing animation */
+.glow-circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  filter: blur(40px);
+  animation: float 6s ease-in-out infinite;
+  bottom: -50px;
+  right: -50px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-30px); }
+}
+
+/* RIGHT SIDE */
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+}
+
+/* CARD */
+.login-card {
+  width: 360px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  color: white;
+}
+
+.login-card h2 {
+  margin: 0;
+}
+
+.login-card p {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.input-box svg {
+  margin-right: 10px;
+  color: #60a5fa;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 100%;
+}
+
+/* focus glow */
+.input-box:focus-within {
+  border: 1px solid #3b82f6;
+  box-shadow: 0 0 10px rgba(59,130,246,0.4);
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* ERROR BOX */
+.error-box {
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  color: #ff6b6b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* LOADER */
+.loader {
+  width: 18px;
+  height: 18px;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* FOOTER */
+.footer-text {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+  opacity: 0.5;
+}

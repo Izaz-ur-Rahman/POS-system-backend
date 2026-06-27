@@ -1,0 +1,198 @@
+/* body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: hsl(231, 52%, 18%) !important;
+  color: white;
+}
+
+/* MAIN */
+.dashboard {
+  padding: 24px;
+  color: rgb(47, 40, 40);
+  
+}
+
+/* HEADER */
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+h4{
+    color: white;
+}
+.header p {
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+/* KPI GRID */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* CARD */
+.card {
+  padding: 18px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.7;
+}
+
+.card h2 {
+  margin: 10px 0 0 0;
+  font-size: 26px;
+  color: white;
+}
+
+.card h4{
+    color: white;
+}
+/* COLORS */
+.blue { border-left: 4px solid #60a5fa; }
+.green { border-left: 4px solid #34d399; }
+.orange { border-left: 4px solid #fbbf24; }
+.purple { border-left: 4px solid #a78bfa; }
+
+/* MAIN GRID */
+.main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+/* PANEL */
+.panel {
+  background: rgba(255,255,255,0.04);
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* PANEL HEADER */
+.panel-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.panel-title span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* LOW STOCK */
+.stock-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.name {
+  margin: 0;
+
+}
+
+.muted {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.ok {
+  color: #34d399;
+}
+
+/* BADGE */
+.badge-danger {
+  background: #ef4444;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .grid-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+} 
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#0f172a;
+    padding:15px;
+    border-radius:12px;
+    color:white;
+}
+
+.card p{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.card.red{ border-left:4px solid #ef4444; }
+.card.orange{ border-left:4px solid #f59e0b; }
+.card.green{ border-left:4px solid #22c55e; }
+.card.blue{ border-left:4px solid #3b82f6; }
+.card.purple{ border-left:4px solid #a855f7; }
+
+.panel{
+    background:#0f172a;
+    padding:15px;
+    border-radius:12px;
+    color:white;
+    margin-top:20px;
+}
+
+.alert-box{
+    background:#1f2937;
+    padding:15px;
+    border-radius:12px;
+    color:#fca5a5;
+    margin-bottom:20px;
+}
+
+.alert-item{
+    padding:6px 0;
+}
+
+.live-notifications h3{
+    color: white;
+}
+.inventory-card h3{
+    color: white;
+}
+
+.inventory-card h1{
+    color: white;
+}
+
+.recent-sales h3{
+    color: white;
+}

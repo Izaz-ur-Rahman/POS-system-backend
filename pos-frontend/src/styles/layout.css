@@ -1,0 +1,12 @@
+.layout{
+    display:flex;
+    background:#020617;
+}
+
+.content{
+    flex:1;
+}
+
+.page{
+    padding:30px;
+}

@@ -1,0 +1,263 @@
+/* .add-btn-purchase{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:8px;
+
+    min-width:180px;
+    height:48px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #3b82f6);
+
+    color:white;
+
+    font-weight:600;
+
+    cursor:pointer;
+} */
+.page-header-purchase {
+    /* display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px; */
+     display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.add-btn-purchase {
+   display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:8px;
+
+    min-width:180px;
+    height:48px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #3b82f6);
+
+    color:white;
+
+    font-weight:600;
+
+    cursor:pointer;
+}
+
+.table-purchase {
+    width:100%;
+    background:rgba(255,255,255,0.03);
+    color:white;
+    border-radius:12px;
+}
+
+.modal-overlay {
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.modal-box {
+    background:#0f172a;
+    padding:20px;
+    border-radius:16px;
+    width:500px;
+    color:white;
+}
+
+.purchase-modal input,
+.purchase-modal select {
+    width:100%;
+    margin:5px 0;
+    padding:8px;
+    border-radius:6px;
+}
+
+.row {
+    display:flex;
+    gap:10px;
+}
+
+.btns {
+    display:flex;
+    gap:10px;
+}
+
+.save {
+    background:#3b82f6;
+    color:white;
+    padding:10px;
+    border:none;
+    flex:1;
+}
+
+.cancel {
+    background:#334155;
+    color:white;
+    padding:10px;
+    border:none;
+    flex:1;
+}
+.form-grid-2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-bottom:15px;
+}
+
+.form-grid-2 label{
+    font-size:12px;
+    color:#94a3b8;
+}
+
+.form-grid-2 input,
+.form-grid-2 select{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    background:#111827;
+    color:white;
+    border:1px solid #334155;
+}
+
+.total-box{
+    padding:10px;
+    background:#0b1220;
+    border-radius:8px;
+    color:#22c55e;
+    font-weight:bold;
+}
+
+.product-header{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 60px;
+    gap:10px;
+    margin-top:10px;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+.product-row{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 60px;
+    gap:10px;
+    margin-top:8px;
+}
+
+.product-row input,
+.product-row select{
+    padding:8px;
+    border-radius:6px;
+    background:#111827;
+    color:white;
+    border:1px solid #334155;
+}
+
+.remove-btn{
+    background:#ef4444;
+    border:none;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.add-row-btn{
+    margin-top:12px;
+    width:100%;
+    padding:10px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.erp-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:12px 0;
+    margin-bottom:20px;
+
+    flex-wrap:nowrap;   /* IMPORTANT */
+    gap:20px;
+}
+
+/* LEFT SIDE */
+.erp-left h2{
+    margin:0;
+    color:white;
+    font-size:22px;
+}
+
+.erp-left p{
+    margin:0;
+    font-size:12px;
+    color:#94a3b8;
+}
+
+/* RIGHT SIDE */
+.erp-right{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+/* SEARCH */
+.erp-search input{
+    width:220px;
+    padding:10px 12px;
+
+    border-radius:10px;
+    border:1px solid #334155;
+
+    background:#111827;
+    color:white;
+
+    outline:none;
+}
+
+/* BUTTON */
+.erp-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:10px 16px;
+
+    border:none;
+    border-radius:10px;
+
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+    color:white;
+
+    font-weight:600;
+    cursor:pointer;
+
+    white-space:nowrap;
+}

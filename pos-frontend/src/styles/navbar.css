@@ -1,0 +1,50 @@
+.navbar{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(12px);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 30px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.navbar h3{
+    color:white;
+}
+
+.navbar button{
+
+    width:auto;
+
+    padding:10px 20px;
+
+    background:linear-gradient(
+    90deg,
+    #ef4444,
+    #dc2626);
+
+    border:none;
+
+    border-radius:10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+}

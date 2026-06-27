@@ -1,0 +1,49 @@
+.dashboard {
+    padding: 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat-card {
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.chart-box {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.table-box {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+.table-box table {
+    width: 100%;
+    margin-top: 10px;
+}
